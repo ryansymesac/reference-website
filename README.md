@@ -88,4 +88,20 @@ value
 14. the flexbox propertys are used for the control and allignments of elements for more complex layouts.
 
 15.  the major flexbox properties used is css code  are justify-content,align-items,align-content,flex-direction,display;flex and flex direction.
-the major differnce between them
+
+16. to use a flexbox properrty on a parent element you woud need to link the parent element class name or id from the html code to the css file then add a display;flex property and you can add whatever sub properties you want like inline-flex or make it a column or row etc.
+
+17.
+Html
+<div class="container">
+  <div class="item">Item 1</div>
+  <div class="item">Item 2</div>
+  <div class="item">Item 3</div>
+</div>
+css
+.container {
+  display: flex;
+  flex-direction: row;
+  }
+
+18.
