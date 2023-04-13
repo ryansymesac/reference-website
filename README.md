@@ -104,4 +104,28 @@ css
   flex-direction: row;
   }
 
-18.
+18. the css grid propert is an efficient way for developers to organize and layout html ocde within css useing rows and colums creating a graid container and an easy layout with just a few lines of coding.
+
+19. .container
+       {display;grid;
+       display-templat-row: repeat(3, 1fr);
+       }
+20.  display flex aligns elements along a single axis either horizontally or vertically whhere as display grad aligns elemenst along various axis' either horizontally or vertically.
+21. the sub property we use to divide elements in css grid properties are grid -template-rows and grid-template-columns. they divide the elemtns withing the css grid property
+22. we us the fr tag to fractionally divide the elements width in css grid. we can also use em,rem,px. 
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+23. In CSS Grid, the grid-area property is used to assign a grid item to a named grid area or to create a new grid area. we use it to apply to a child element allowing you to make changes to a single or multiple named child elements.
+
+24. we use the gird-auto-columns to prevent displaying empty columns in our css code..container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-columns: minmax(0, 1fr);
+}
+
+25. you go on google to google fonts and pick out a font you want and select it. Go to selected fonts, in the embed tab grab the link that they provide for html and paste link into the head of your html file. in the css file add the font family name from the google selector and place like this ;
+body {
+  font-family: 'Open Sans', sans-serif;
+}
